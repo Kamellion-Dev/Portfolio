@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Kamal Aldin | Full Stack Web Developer Portfolio</title>
+    <meta name="description" content="Full Stack Developer with 4+ years experience in Laravel, PHP, React, Vue.js, and modern web technologies">
+    <meta name="author" content="Mohamed Kamal Aldin">
+    <meta property="og:title" content="Mohamed Kamal Aldin | Full Stack Web Developer Portfolio">
+    <meta name="twitter:title" content="Mohamed Kamal Aldin | Full Stack Web Developer Portfolio">
+
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#00d4ff">
+    <meta name="msapplication-TileColor" content="#00d4ff">
+    <meta name="msapplication-config" content="browserconfig.xml">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/js/script.js" as="script">
+
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;700;900&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;700;900&display=swap">
+    </noscript>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Load Three.js only for desktop -->
+    <script>
+        if (window.innerWidth > 768) {
+            const script = document.createElement('script')
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'
+            script.async = true
+            document.head.appendChild(script)
+        }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icons/mk.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <div class="brand-container">
+                    <!-- Background icons -->
+                    <div class="brand-bg-icons">
+                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-code"></i>
+                        <i class="fas fa-terminal"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
+
+                    <!-- Main brand -->
+                    <span class="brand-text">&lt;MK</span>
+                    <span class="brand-slash">/&gt;</span>
+
+                    <!-- Flying instances -->
+                    <div class="brand-flying brand-flying-1">&lt;MK/&gt;</div>
+                    <div class="brand-flying brand-flying-2">&lt;MK/&gt;</div>
+                    <div class="brand-flying brand-flying-3">&lt;MK/&gt;</div>
+                    <div class="brand-flying brand-flying-4">&lt;MK/&gt;</div>
+                    <div class="brand-flying brand-flying-5">&lt;MK/&gt;</div>
+                    <div class="brand-flying brand-flying-6">&lt;MK/&gt;</div>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="docs/Muhammed K.Aldin CV.pdf" download>
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 order-1 order-lg-1">
+                    <div class="hero-visual">
+                        <div class="hero-image-container">
+                            <img src="hero.png" alt="Hero Illustration" class="hero-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2">
+                    <div class="hero-content" id="hero-content">
+                        <p class="hero-subtitle">Loading hero content...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content" id="about-content">
+                        <p class="about-text">Loading about content...</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="floating-cards">
+                            <div class="card-3d" data-tilt>
+                                <div class="card-content">
+                                    <i class="fas fa-server"></i>
+                                    <h4>Backend</h4>
+                                    <p>Laravel, PHP, Microservices</p>
+                                </div>
+                            </div>
+                            <div class="card-3d" data-tilt>
+                                <div class="card-content">
+                                    <i class="fas fa-desktop"></i>
+                                    <h4>Frontend</h4>
+                                    <p>React, Vue, Nuxt.js</p>
+                                </div>
+                            </div>
+                            <div class="card-3d" data-tilt>
+                                <div class="card-content">
+                                    <i class="fas fa-database"></i>
+                                    <h4>Database</h4>
+                                    <p>MySQL, MongoDB, Firebase</p>
+                                </div>
+                            </div>
+                            <div class="card-3d" data-tilt>
+                                <div class="card-content">
+                                    <i class="fas fa-rocket"></i>
+                                    <h4>DevOps</h4>
+                                    <p>Git, AWS, CI/CD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">My professional journey and educational background that have shaped my skills and expertise.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="experience-timeline">
+                        <h3 class="timeline-title">
+                            <i class="fas fa-briefcase"></i>
+                            Work Experience
+                        </h3>
+
+                        <div class="timeline" id="work-experience-list">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Loading work experience...</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="education-timeline">
+                        <h3 class="timeline-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </h3>
+
+                        <div class="timeline" id="education-list">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Loading education...</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Backend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="Laravel">
+                            <span class="skill-name">Laravel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="PHP">
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Microservices">
+                            <span class="skill-name">Microservices</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="REST APIs">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Frontend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="React.js">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Vue.js">
+                            <span class="skill-name">Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Nuxt.js">
+                            <span class="skill-name">Nuxt.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases & DevOps</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="MySQL">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MongoDB">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="AWS">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Git">
+                            <span class="skill-name">Git & GitHub Actions</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expertise-areas">
+                <h3>Areas of Expertise</h3>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>E-commerce & Multivendor</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>SaaS Platforms</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-users"></i>
+                        <span>CRM & HRM Systems</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-warehouse"></i>
+                        <span>WMS Solutions</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EdTech Platforms</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Payment Gateways</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-plug"></i>
+                        <span>API Integration</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Integration</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <!-- 3D Background Canvas -->
+        <div id="projects-3d-bg" class="projects-3d-background"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Explore my portfolio of innovative web applications and solutions</p>
+                </div>
+            </div>
+
+            <div class="projects-expertise-grid" id="projects-container">
+                <!-- Projects will be dynamically loaded from data.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">I'm currently looking for Full-time Remote opportunities</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>muhammedk.aldin@gmail.com</p>
+                                <span class="contact-note">Available for immediate response</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+20 (010) 953 040 64</p>
+                                <span class="contact-note">WhatsApp available</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Cairo, Egypt</p>
+                                <span class="contact-note">Remote work ready</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Availability</h4>
+                                <p>Full-time Remote</p>
+                                <span class="contact-note">Ready to start immediately</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/MuhammedKAldin" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohamed-kamal-117026221/" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h3>Ready to work together?</h3>
+                        <p>I'm available for full-time remote positions. Let's discuss how I can help bring your ideas to life!</p>
+                        <a href="mailto:muhammedk.aldin@gmail.com" class="btn btn-primary btn-lg">Send Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Mohamed Kamal Aldin. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Content will be injected dynamically -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+
+    <!-- Service Worker for PWA capabilities -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => console.log('SW registered'))
+                    .catch(error => console.log('SW registration failed'))
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+:root {
+  --edit-man-font-sans: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --edit-man-font-mono: "Cascadia Code", Consolas, "Courier New", monospace;
+}
+
+.geist_a71539c9-module__T19VSG__className {
+  font-family: var(--edit-man-font-sans);
+  font-style: normal;
+}
+
+.geist_a71539c9-module__T19VSG__variable {
+  --font-geist-sans: var(--edit-man-font-sans);
+}
+
+.geist_mono_8d43a2aa-module__8Li5zG__className {
+  font-family: var(--edit-man-font-mono);
+  font-style: normal;
+}
+
+.geist_mono_8d43a2aa-module__8Li5zG__variable {
+  --font-geist-mono: var(--edit-man-font-mono);
+}
