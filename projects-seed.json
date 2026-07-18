@@ -1,0 +1,77 @@
+{
+  "version": "2026-07-18-enterprise-portfolio-v2",
+  "projects": [
+    {
+      "title": "Baab",
+      "description": "An enterprise-grade AI real estate intelligence platform that transforms WhatsApp into a conversational property assistant. Baab translates natural-language user intent into structured search and recommendation workflows across large-scale property datasets using secure AI-to-database pipelines.\n\nHighlights: conversational property discovery, schema-aware prompting, intelligent recommendation flows, optimized SQL for large catalogs, scalable messaging architecture, and WhatsApp Business API integration.",
+      "tags": ["Laravel", "MySQL", "OpenAI / DeepSeek", "WhatsApp Business API", "Queues", "REST APIs", "AI Integrations"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    },
+    {
+      "title": "Klipbot",
+      "description": "A visual marketing automation and campaign builder that lets non-technical teams launch Facebook Messenger and WhatsApp automations without engineering support. The platform includes a custom graph-based workflow engine that turns drag-and-drop conversation flows into executable runtime logic.\n\nHighlights: visual flow designer, workflow graph execution engine, stateful conversation management, concurrent campaign handling, webhook processing, retries, asynchronous queue execution, and self-serve campaign launch for marketing teams.",
+      "tags": ["Laravel", "JavaScript", "Flow Designer", "Graph Architecture", "Webhooks", "Queues", "Facebook API", "WhatsApp API", "Redis"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    },
+    {
+      "title": "Groov",
+      "description": "A next-generation AI agents and workflow automation platform for building intelligent execution pipelines by connecting triggers, AI agents, external services, and business actions. Groov focuses on scalable orchestration, asynchronous processing, and event-driven task execution.\n\nHighlights: modular workflow orchestration engine, AI agent execution pipelines, event-driven architecture, reusable workflow components, queue-powered long-running jobs, retry mechanisms, and fault-tolerant background execution.",
+      "tags": ["Laravel", "Redis", "Queues", "AI APIs", "Event-Driven Architecture", "Workflow Engine", "REST APIs"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    },
+    {
+      "title": "ERP Jeyad",
+      "description": "A comprehensive enterprise equestrian management and marketplace platform serving clubs, horse owners, veterinarians, trainers, hospitality teams, and vendors through one unified system. ERP Jeyad digitizes reservations, competitions, healthcare, boarding, training, and commerce across the full horse lifecycle.\n\nHighlights: online ticketing with payment processing and QR verification, horse and ownership records, hotel and boarding workflows, training scheduling, veterinary operations, multi-vendor equestrian marketplace, role-based access control, reporting, notifications, and modular enterprise architecture.",
+      "tags": ["Laravel", "React", "Inertia.js", "Tailwind CSS", "MySQL", "REST APIs", "QR Code Integration", "Payment Gateway", "Queue Workers", "RBAC"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": "Featured"
+    },
+    {
+      "title": "Parcel Express",
+      "description": "An enterprise logistics and transportation management platform built for government-compliant operations and direct Bayan integration in Oman. Parcel Express manages transportation workflows, fleet operations, waybills, customer master data, shipment tracking, invoicing, and mobile delivery workflows inside a highly scalable logistics architecture.\n\nHighlights: direct government API integration, automated electronic waybills, fleet and vehicle modules, large-scale customer import pipelines, shipment lifecycle management, real-time delivery-agent support, printable logistics documents, bulk validation systems, and audit-friendly enterprise dashboards.",
+      "tags": ["Laravel", "React", "Tailwind CSS", "Radix UI", "Government API Integration", "Queue Workers", "MySQL", "Mobile APIs", "Enterprise Logistics"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": "Featured"
+    },
+    {
+      "title": "Atom B2B",
+      "description": "An intelligent B2B marketplace and procurement platform connecting suppliers, wholesalers, companies, and procurement teams through a unified commerce ecosystem. The platform combines multi-tenant marketplace operations with onboarding, approvals, procurement, and high-volume catalog workflows.\n\nHighlights: multi-tenant marketplace architecture, supplier onboarding and moderation, inventory synchronization pipelines, procurement and quotation workflows, enterprise permissions, scalable APIs for web and mobile, massive product import processing, and workflow automation for approvals and operations.",
+      "tags": ["Laravel", "MySQL", "REST APIs", "Queue Workers", "Multi-Tenancy", "Enterprise Architecture"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    },
+    {
+      "title": "Almathal B2B",
+      "description": "A large-scale wholesale distribution platform built for enterprise buyers, distributors, and procurement teams. The system handles customer-specific pricing, wholesale catalogs, credit accounts, procurement workflows, quotation handling, and complex commercial operations.\n\nHighlights: customer-specific pricing, wholesale ordering workflows, enterprise-grade RBAC, inventory synchronization, quotation and procurement processes, credit and payment management, and large product catalog filtering for business customers.",
+      "tags": ["Laravel", "MySQL", "REST APIs", "ERP Integrations", "RBAC", "Queue Processing"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    },
+    {
+      "title": "Shopsze",
+      "description": "A production-scale multi-vendor commerce platform serving the Saudi market with marketplace operations, high transaction volumes, and secure payment flows. The platform is designed for scalable catalogs, order management, role-based administration, and performance under heavy commercial load.\n\nHighlights: enterprise commerce architecture, secure payment gateway integration, scalable product catalog management, order lifecycle workflows, high-volume query optimization, advanced administration panels, and performance tuning through caching and indexing.",
+      "tags": ["Laravel", "Vue.js", "REST APIs", "Payment Gateways", "Redis", "MySQL"],
+      "detailsUrl": "#",
+      "githubUrl": "",
+      "liveDemoUrl": "",
+      "badge": ""
+    }
+  ]
+}
