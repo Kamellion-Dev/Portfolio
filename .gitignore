@@ -41,6 +41,8 @@ temp/
 # Build outputs
 dist/
 build/
+_site/
+.superpowers/
 
 # Environment variables
 .env

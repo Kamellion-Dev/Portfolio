@@ -1,0 +1,13 @@
+{
+  "name": "mohamed-kamal-portfolio",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "check": "npm run build && npm test",
+    "preview": "python -m http.server 8000 --directory _site"
+  }
+}
