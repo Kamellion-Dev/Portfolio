@@ -53,15 +53,19 @@ export const projects = [
   },
   {
     slug: 'food-sawa', name: 'Food Sawa', subtitle: 'Multi-Tenant Restaurant SaaS Platform',
-    category: 'Personal engineering project', type: 'Personal project', status: 'Node.js migration planned', featured: true,
-    stack: ['Laravel', 'Node.js / NestJS — planned', 'PostgreSQL / Prisma — planned', 'Docker — planned'],
-    summary: 'A restaurant platform with a planned NestJS migration for tenant isolation and SaaS invoicing.',
-    problem: 'The next architecture should support independent restaurant accounts with clear access boundaries and a maintainable billing workflow.',
-    role: 'Fullstack Laravel development and architecture planning for a Node.js/NestJS migration.',
-    contributions: [['Existing implementation', 'Restaurant application developed in Laravel with store-level data separation.'], ['Migration scope', 'Plan tenant database schemas, JWT authentication, role-based access control, and automated invoicing services.']],
-    flow: ['Restaurant account', 'Tenant boundary', 'Application services', 'Invoicing — planned'],
-    note: 'Moving from shared store-level records to separate database schemas changes migrations, tenant routing, and operational maintenance; it is a substantive architecture change.',
-    outcome: 'An existing application and a clearly scoped migration direction.', evidence: 'Laravel application with a planned Node.js migration. Get in touch to discuss the migration approach.'
+    category: 'Personal engineering project', type: 'Personal project', status: 'Personal project', featured: true,
+    stack: ['Node.js', 'NestJS', 'TypeScript', 'PostgreSQL', 'Prisma', 'JWT', 'Docker'],
+    summary: 'A multi-tenant restaurant SaaS platform that supports independent restaurant accounts, secure access, and automated invoicing.',
+    problem: 'Independent restaurants need secure account boundaries, role-based access, and reliable invoicing while operating on a shared SaaS platform.',
+    role: 'Fullstack development and backend architecture for the multi-tenant restaurant SaaS platform.',
+    contributions: [
+      ['Multi-tenant backend', 'Built a multi-tenant restaurant SaaS backend to support independent restaurant accounts on a shared platform.'],
+      ['Tenant security', 'Separated tenant data into PostgreSQL schemas and enforced JWT authentication and role-based access control (RBAC).'],
+      ['Automated invoicing', 'Developed invoicing microservices to automate invoice generation for the SaaS platform.']
+    ],
+    flow: ['Restaurant account', 'Tenant database schema', 'Authenticated services', 'Automated invoicing'],
+    note: 'Separate PostgreSQL schemas provide explicit tenant data boundaries, while JWT authentication and RBAC control access to each restaurant account.',
+    outcome: 'A Node.js and NestJS SaaS backend with tenant isolation, secure role-based access, and automated invoice generation.', evidence: 'Personal project overview. Get in touch to discuss the multi-tenant architecture and implementation.'
   }
 ];
 

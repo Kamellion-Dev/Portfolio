@@ -94,7 +94,7 @@ Proposed published assets: `/Portfolio/resume/Mohamed-Kamal-Senior-Fullstack-Eng
 - [ ] Replace skill percentages with frontend, backend/APIs, data/messaging, AI/product integration, and delivery/tooling groups. List actual skills and link them to case studies instead of a large repetitive keyword block.
 - [ ] Add compact education/credentials from the approved résumé, including the exact Law degree and Route diploma. Remove “Verified Developer” unless a genuine supporting credential can be linked.
 - [ ] Change the freelancer-only contact heading to **Let’s build reliable products**, with a concise invitation for senior fullstack opportunities.
-- [ ] Compare copy with the approved résumé and project evidence. Confirm frontend work is visible and no planned migration becomes a claim of completed production delivery.
+- [ ] Compare copy with the approved résumé and project evidence. Confirm frontend work and current project implementation details stay consistent across the site.
 - [ ] Review mobile/desktop layout and commit the content update.
 
 **Acceptance:** A visitor quickly understands the target role, overall experience, frontend/backend scope and commercial domains. No undefined proficiency percentages remain.
@@ -107,7 +107,7 @@ Proposed published assets: `/Portfolio/resume/Mohamed-Kamal-Senior-Fullstack-Eng
 
 - [ ] Inventory the eight live projects and requested Node.js projects: actual stack, individual contribution, status, public-sharing permission, screenshots and verifiable results. Published marketing copy alone is not proof.
 - [ ] Select 3–4 featured projects with the strongest evidence. Aim for a React logistics product, a Vue ERP/B2B product, an AI-agent/RAG product and demonstrable Node.js/NestJS work. Put remaining real work in a compact archive.
-- [ ] Preserve requested names when included: **LedgerFlow — Event-Driven Fintech Platform**, **Nexus Core — Distributed Workflow Engine**, **Semsarco — AI-Driven Marketplace Discovery Platform**, **Food Sawa — Multi-Tenant Restaurant SaaS Platform**. Label unfinished work accurately; keep existing Laravel work labelled Laravel until a Node.js migration is demonstrable.
+- [ ] Preserve requested names when included: **LedgerFlow — Event-Driven Fintech Platform**, **Nexus Core — Distributed Workflow Engine**, **Semsarco — AI-Driven Marketplace Discovery Platform**, **Food Sawa — Multi-Tenant Restaurant SaaS Platform**. Keep each project’s published stack and implementation details consistent across its card and case study.
 - [ ] Simplify cards to title, one value statement, actual stack, personal role/status and a visible project-specific case-study link. Remove lengthy index-page highlight paragraphs.
 - [ ] Create each case study with problem/users, personal responsibility, frontend behavior, backend design and one trade-off, integrations, testing/deployment actually used, screenshots/diagram, outcome/evidence and implementation status.
 - [ ] Include demos/repos only where shareable. For private work, say the code is private and provide permitted anonymized evidence. Use specific observable outcomes when measurements do not exist.

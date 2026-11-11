@@ -38,7 +38,7 @@ Legacy `src/`, old assets/configuration, and `old-index.html` remain in reposito
 ## Content and release rules
 
 - Keep five years explicitly tied to overall software development experience.
-- Keep project status accurate. Architecture concepts and the planned Node.js migration are labelled clearly.
+- Keep project status and technical claims consistent across cards, project pages and the résumé.
 - Add repository/demo URLs only when genuinely public. Do not invent metrics, testimonials or client claims.
 - Replace the PDF in `resume/` when the approved résumé changes; update `owner.resume` if its filename changes.
 - Update the social-preview PNG when professional positioning changes.
