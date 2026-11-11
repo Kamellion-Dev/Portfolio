@@ -14,7 +14,7 @@ for(const project of projects){
   await mkdir(folder,{recursive:true});
   await writeFile(resolve(folder,'index.html'),projectPage(project));
 }
-for(const path of ['assets/css/portfolio.css','assets/js/portfolio.js','assets/images/portfolio/portrait.webp','assets/images/portfolio/favicon.svg','assets/images/portfolio/social-preview.png',owner.resume,'sw.js']){
+for(const path of ['assets/css/portfolio.css','assets/js/portfolio.js','assets/images/portfolio/portrait.png','assets/images/portfolio/favicon.svg','assets/images/portfolio/social-preview.png',owner.resume,'sw.js']){
   const target=resolve(output,path);
   await mkdir(resolve(target,'..'),{recursive:true});
   await cp(resolve(root,path),target,{recursive:true});
