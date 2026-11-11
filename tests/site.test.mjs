@@ -76,3 +76,19 @@ test('release includes only the four personal projects and excludes development 
     assert.ok(!/Parcel Express|ERP Jeyad|Atom B2B|Klipbot|Almathal|Shopsze/.test(text),`commercial showcase in ${file}`);
   }
 });
+
+test('published theme exposes the cloud palette and non-interactive data-grid layer', () => {
+  const css = readFileSync(resolve(root,'assets/css/portfolio.css'),'utf8');
+  for (const token of [
+    '--teal:#2dd4bf',
+    '--violet:#8b5cf6',
+    '--pink:#ff4d9d',
+    '--grid-opacity:.24',
+    '--glass:rgba(15,19,56,.72)',
+    '--mobile-body-size:16px'
+  ]) assert.ok(css.includes(token), `missing theme token: ${token}`);
+  assert.match(css,/body::before\s*\{[^}]*pointer-events:none[^}]*background-image:/s);
+  assert.match(css,/\.hero\s*\{[^}]*overflow:clip/s);
+  assert.match(css,/\.system-visual\s*\{[^}]*position:relative[^}]*overflow:hidden/s);
+  assert.match(css,/@media\s*\(prefers-reduced-motion:reduce\)/);
+});
