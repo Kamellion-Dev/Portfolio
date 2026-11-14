@@ -13,13 +13,13 @@ export const projects = [
   {
     slug: 'semsarco', name: 'Semsarco', subtitle: 'AI-Driven Marketplace Discovery Platform',
     category: 'AI & product engineering', type: 'Personal project', status: 'Personal project', featured: true,
-    stack: ['Node.js', 'Playwright', 'OpenRouter AI', 'Vue 3', 'Redis'],
+    stack: ['Laravel', 'MySQL', 'Vue 3', 'OpenRouter AI'],
     summary: 'An Egyptian Arabic search assistant that turns everyday requests into structured marketplace searches.',
     problem: 'Marketplace discovery starts with a human request, not a set of database filters. The challenge is to translate that request into a useful search and present collected listings without repeated results.',
-    role: 'Fullstack development: the search experience, AI request processing, and browser-based collection service.',
+    role: 'Fullstack development: the Laravel backend, MySQL data layer, Vue 3 search experience, and AI request processing.',
     contributions: [
       ['AI search', 'Built an Egyptian Arabic assistant that converts user requests into structured product search filters.'],
-      ['Collection service', 'Developed a Node.js and Playwright service with persistent browser sessions to collect marketplace listings.'],
+      ['Marketplace workflow', 'Built the backend with Laravel and MySQL and collected marketplace listings through persistent browser sessions.'],
       ['Product experience', 'Connected the search workflow to a Vue 3 interface and removed duplicate listings from collected results.']
     ],
     flow: ['User request', 'AI search filters', 'Browser collection', 'Unique listings'],
