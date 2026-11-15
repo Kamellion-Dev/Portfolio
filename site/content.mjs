@@ -79,15 +79,18 @@ export const skills = [
 ];
 
 export const experience = [
-  { company: 'Softoio', title: 'Full Stack Engineer', date: 'Mar 2023 — Present', text: 'Build business applications across ERP, e-commerce, CRM, HRM, warehouse management, and logistics.', bullets: [
-    'Develop React.js, Vue.js, and Next.js interfaces; contribute to NestJS and TypeScript backend projects alongside PHP/Laravel delivery.',
-    'Integrate MyFatoorah, Clickpay, Axis, and Paymob payment gateways, plus logistics APIs that connect business systems and automate data exchange.',
-    'Build B2B workflows and AI sales assistance using LLMs, RAG, pgvector, vector embeddings, and tool calling.',
-    'Deliver REST APIs, WhatsApp/Meta integrations, background processing, and features from system design through deployment.'
+  { company: 'Softoio', title: 'Full Stack Engineer', date: 'Mar 2023 — Present', text: 'Build enterprise resource planning (ERP), e-commerce, CRM, HRM, and warehouse management systems with PHP/Laravel to support business operations and customer workflows.', bullets: [
+    'Integrate MyFatoorah, Clickpay, Axis, and Paymob payment gateways into business applications to support online payments and checkout workflows.',
+    'Implement logistics API integrations that connect ordering and logistics systems with third-party services and automate data exchange.',
+    'Develop frontend features with React.js, Vue.js, and Next.js and contribute to backend projects using NestJS and TypeScript.',
+    'Develop and optimize RESTful APIs for application features and external integrations.',
+    'Built B2B platforms and integrated LLM-powered AI sales agents into business products using retrieval-augmented generation (RAG), vector embeddings, pgvector, and tool calling for product discovery, personalized recommendations, and context-aware customer assistance.',
+    'Integrate Meta APIs, WhatsApp, and AI services for customer communication, chatbots, sentiment analysis, and workflow automation.',
+    'Deliver features across the software development lifecycle, from system design and API integration through deployment and performance optimization.'
   ] },
-  { company: 'Penta Value', title: 'Software Developer', date: 'Feb 2022 — Mar 2023', text: 'Developed backend applications and REST APIs with PHP/Laravel.', bullets: [
-    'Delivered e-commerce, social, and learning-management features in Agile teams.',
-    'Applied Clean Architecture and SOLID principles to application services and integrations.'
+  { company: 'Penta Value', title: 'Software Developer', date: 'Feb 2022 — Mar 2023', text: 'Built PHP/Laravel backend services and RESTful APIs using Clean Architecture and SOLID principles.', bullets: [
+    'Delivered e-commerce, social networking, and learning management systems (LMS) in Agile sprints.',
+    'Added real-time data streaming and event-driven features for applications with multiple users.'
   ] }
 ];
 
